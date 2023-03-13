@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: rlespinasse/github-slug-action@4.2.3
+      - uses: rlespinasse/github-slug-action@v4.4.1
 
       - name: Cache
         uses: actions/cache@v2
